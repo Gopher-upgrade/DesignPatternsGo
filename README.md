@@ -47,7 +47,7 @@
 │   ├── [ ] Observer
 │   ├── [ ] Prototype
 │   ├── [ ] Proxy
-│   ├── :white_check_mark: Singleton
+│   ├── [√] Singleton
 │   │         ├── lazy              
 │   │         ├── hungry            
 │   │         └── doubleLock        
@@ -72,7 +72,7 @@ If you find something wrong, you can initiate a [issue](https://github.com/PuSha
 <table>
     <tbody>
         <tr>
-            <td width="20%"><a href="https://github.com/luin"><img src="https://avatars2.githubusercontent.com/u/18391791?v=1" /></a>
+            <td ><a href="https://github.com/luin"><img src="https://avatars2.githubusercontent.com/u/18391791?v=1" /></a>
             <p align="center">Marco</p>
             </td>
         </tr>
