@@ -26,7 +26,7 @@
 
 
 ## 简易结构
-
+```
 ├── Package
 │   ├── [ ] Adapter                 
 │   ├── [ ] Bridge
@@ -48,7 +48,7 @@
 │   ├── [ ] Observer
 │   ├── [ ] Prototype
 │   ├── [ ] Proxy
-│   ├── [x] Singleton
+│   ├── :white_check_mark: Singleton
 │   │         ├── lazy              
 │   │         ├── hungry            
 │   │         └── doubleLock        
@@ -61,6 +61,7 @@
 ├── LICENSE
 ├── README-CN.md
 └── README.md
+```
 
 ## 纠错
 
@@ -70,11 +71,13 @@
 
 ## 贡献者
 <table>
-    <tr>
-        <td width="20%"><a href="https://github.com/luin"><img src="https://avatars2.githubusercontent.com/u/18391791?v=1" /></a>
+    <tbody>
+        <tr>
+            <td width="20%"><a href="https://github.com/luin"><img src="https://avatars2.githubusercontent.com/u/18391791?v=1" /></a>
             <p align="center">Marco</p>
-        </td>
-    </tr>
+            </td>
+        </tr>
+    </tbody>
 </table>
 
 ## License

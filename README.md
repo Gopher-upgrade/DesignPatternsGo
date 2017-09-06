@@ -25,7 +25,7 @@
 
 
 ## Simple structure
-
+```
 ├── Package
 │   ├── [ ] Adapter                 
 │   ├── [ ] Bridge
@@ -47,7 +47,7 @@
 │   ├── [ ] Observer
 │   ├── [ ] Prototype
 │   ├── [ ] Proxy
-│   ├── [x] Singleton
+│   ├── :white_check_mark: Singleton
 │   │         ├── lazy              
 │   │         ├── hungry            
 │   │         └── doubleLock        
@@ -60,6 +60,7 @@
 ├── LICENSE
 ├── README-CN.md
 └── README.md
+```
 
 ## Correct the mistakes
 
@@ -69,11 +70,13 @@ If you find something wrong, you can initiate a [issue](https://github.com/PuSha
 
 ## Contributors
 <table>
-    <tr>
-        <td width="20%"><a href="https://github.com/luin"><img src="https://avatars2.githubusercontent.com/u/18391791?v=1" /></a>
+    <tbody>
+        <tr>
+            <td width="20%"><a href="https://github.com/luin"><img src="https://avatars2.githubusercontent.com/u/18391791?v=1" /></a>
             <p align="center">Marco</p>
-        </td>
-    </tr>
+            </td>
+        </tr>
+    </tbody>
 </table>
 
 ## License
