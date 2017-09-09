@@ -1,7 +1,7 @@
-<h1 align="center">:rocket: Use golang to combat 23 design patterns  </h1>
+<h1 align="center">:rocket: golang 实战23种设计模式 </h1>
 
 <p align="center">
-<a href="https://github.com/PuShaoWei/designPatterns-go#Simple+structure">
+<a href="https://github.com/PuShaoWei/designPatterns-go#简易结构">
   <img src="https://img.shields.io/badge/php-done-brightgreen.svg" alt="php">
 </a>
 <a href="https://github.com/PuShaoWei/designPatterns-go">
@@ -17,14 +17,14 @@
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg">
 </a>
 </p>
-<p align="center"> <a href="./README-CN.md">中文版</a>　<p>
+<p align="center"> <a href="./README-EN.md">English</a>　<p>
 
-## About
+## 关于
 
->  Knowledge and practice are used in an integrated way
+>  知行合一，学以致用
 
 
-## Simple structure
+## 简易结构
 ```
 ├── Package
 │   ├── [ ] Adapter                 
@@ -47,7 +47,7 @@
 │   ├── [ ] Observer
 │   ├── [ ] Prototype
 │   ├── [ ] Proxy
-│   ├── [√] Singleton
+│   ├── [√]: Singleton
 │   │         ├── lazy              
 │   │         ├── hungry            
 │   │         └── doubleLock        
@@ -62,13 +62,13 @@
 └── README.md
 ```
 
-## Correct the mistakes
+## 纠错
 
-If you find something wrong, you can initiate a [issue](https://github.com/PuShaoWei/designPatterns-go/issues)or [pull request](https://github.com/PuShaoWei/designPatterns-go/pulls),I will correct it in time
+如果你发现有问题，你可以发起 [issue](https://github.com/PuShaoWei/designPatterns-go/issues) 或者 [pull request](https://github.com/PuShaoWei/designPatterns-go/pulls),我会及时纠正
 
 > 补充:发起pull request的commit message请参考文章[Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 
-## Contributors
+## 贡献者
 <table>
     <tbody>
         <tr>
