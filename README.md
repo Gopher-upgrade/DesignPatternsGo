@@ -23,44 +23,61 @@
 
 >  知行合一，学以致用
 
+这里记录在Golang 学习中遇到的一些有趣的设计模式，代码段来自一些开源库源码，以及个人与参与者实现的一些较好的案例，我认为设计模式的最大问题是大家知道这是什么而往往总是不知道何时能用上
 
 ## 简易结构
 ```
 ├── Package
-│   ├── [ ] Adapter                 
-│   ├── [ ] Bridge
-│   ├── [ ] Builder
-│   ├── [ ] ChainOfResponsibility
-│   ├── [ ] Command
-│   ├── [ ] Composite
-│   ├── [ ] Decorator
-│   ├── [ ] Facade
-│   ├── [ ] Factory
-│   ├── [ ] FactoryAbstract
-│   ├── [ ] Filter
-│   ├── [ ] Flyweight
-│   ├── [ ] Interpreter
-│   ├── [ ] Iterator
-│   ├── [ ] Mediator
-│   ├── [ ] Memento
-│   ├── [ ] NullObject
-│   ├── [ ] Observer
-│   ├── [ ] Prototype
-│   ├── [ ] Proxy
-│   ├── [√]: Singleton
-│   │         ├── lazy              
-│   │         ├── hungry            
-│   │         └── doubleLock        
-│   │  
-│   ├── [ ] State
-│   ├── [ ] Strategy
-│   ├── [ ] Template
-│   └── [ ] Visitor
+│   ├── Behavioral
+│   │   ├── ChainOfResponsibilities
+│   │   ├── Command
+│   │   ├── Iterator
+│   │   ├── Mediator
+│   │   ├── Memento
+│   │   ├── NullObject
+│   │   ├── Observer
+│   │   ├── Specification
+│   │   ├── State
+│   │   ├── Strategy
+│   │   ├── TemplateMethod
+│   │   └── Visitor
+│   ├── Creational
+│   │   ├── AbstractFactory
+│   │   ├── Builder
+│   │   ├── FactoryMethod
+│   │   ├── Multiton
+│   │   ├── Pool
+│   │   ├── Prototype
+│   │   ├── SimpleFactory
+│   │   ├── Singleton
+│   │   │   ├── doubleLock
+│   │   │   │   └── main.go
+│   │   │   ├── hungry
+│   │   │   │   └── main.go
+│   │   │   └── lazy
+│   │   │       └── main.go
+│   │   └── StaticFactory
+│   └── Structural
+│       ├── Adapter
+│       ├── Bridge
+│       ├── Composite
+│       ├── DataMapper
+│       ├── Decorator
+│       ├── DependencyInjection
+│       ├── Facade
+│       ├── FluentInterface
+│       ├── Flyweight
+│       ├── Proxy
+│       └── Registry
 │     
 ├── LICENSE
 ├── README-CN.md
 └── README.md
 ```
+
+## 感谢
+
+- [DesignPatternsPHP](https://github.com/domnikl/DesignPatternsPHP)
 
 ## 纠错
 

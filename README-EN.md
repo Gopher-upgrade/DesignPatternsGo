@@ -28,35 +28,47 @@
 ## Simple structure
 ```
 ├── Package
-│   ├── [ ] Adapter                 
-│   ├── [ ] Bridge
-│   ├── [ ] Builder
-│   ├── [ ] ChainOfResponsibility
-│   ├── [ ] Command
-│   ├── [ ] Composite
-│   ├── [ ] Decorator
-│   ├── [ ] Facade
-│   ├── [ ] Factory
-│   ├── [ ] FactoryAbstract
-│   ├── [ ] Filter
-│   ├── [ ] Flyweight
-│   ├── [ ] Interpreter
-│   ├── [ ] Iterator
-│   ├── [ ] Mediator
-│   ├── [ ] Memento
-│   ├── [ ] NullObject
-│   ├── [ ] Observer
-│   ├── [ ] Prototype
-│   ├── [ ] Proxy
-│   ├── [√] Singleton
-│   │         ├── lazy              
-│   │         ├── hungry            
-│   │         └── doubleLock        
-│   │  
-│   ├── [ ] State
-│   ├── [ ] Strategy
-│   ├── [ ] Template
-│   └── [ ] Visitor
+│   ├── Behavioral
+│   │   ├──  [ ] ChainOfResponsibilities
+│   │   ├──  [ ] Command
+│   │   ├──  [ ] Iterator
+│   │   ├──  [ ] Mediator
+│   │   ├──  [ ] Memento
+│   │   ├──  [ ] NullObject
+│   │   ├──  [ ] Observer
+│   │   ├──  [ ] Specification
+│   │   ├──  [ ] State
+│   │   ├──  [ ] Strategy
+│   │   ├──  [ ] TemplateMethod
+│   │   └──  [ ] Visitor
+│   ├── Creational
+│   │   ├──  [ ] AbstractFactory
+│   │   ├──  [ ] Builder
+│   │   ├──  [ ] FactoryMethod
+│   │   ├──  [ ] Multiton
+│   │   ├──  [ ] Pool
+│   │   ├──  [ ] Prototype
+│   │   ├──  [ ] SimpleFactory
+│   │   ├──  [√] Singleton
+│   │   │   ├── doubleLock
+│   │   │   │   └── main.go
+│   │   │   ├── hungry
+│   │   │   │   └── main.go
+│   │   │   └── lazy
+│   │   │       └── main.go
+│   │   └── StaticFactory
+│   └── Structural
+│       ├──  [ ] Adapter
+│       ├──  [ ] Bridge
+│       ├──  [ ] Composite
+│       ├──  [ ] DataMapper
+│       ├──  [ ] Decorator
+│       ├──  [ ] DependencyInjection
+│       ├──  [ ] Facade
+│       ├──  [ ] FluentInterface
+│       ├──  [ ] Flyweight
+│       ├──  [ ] Proxy
+│       └──  [ ] Registry
 │     
 ├── LICENSE
 ├── README-CN.md
