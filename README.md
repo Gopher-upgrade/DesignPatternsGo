@@ -29,27 +29,27 @@
 ```
 ├── Package
 │   ├── Behavioral
-│   │   ├── ChainOfResponsibilities
-│   │   ├── Command
-│   │   ├── Iterator
-│   │   ├── Mediator
-│   │   ├── Memento
-│   │   ├── NullObject
-│   │   ├── Observer
-│   │   ├── Specification
-│   │   ├── State
-│   │   ├── Strategy
-│   │   ├── TemplateMethod
-│   │   └── Visitor
+│   │   ├──  [ ] ChainOfResponsibilities
+│   │   ├──  [ ] Command
+│   │   ├──  [ ] Iterator
+│   │   ├──  [ ] Mediator
+│   │   ├──  [ ] Memento
+│   │   ├──  [ ] NullObject
+│   │   ├──  [ ] Observer
+│   │   ├──  [ ] Specification
+│   │   ├──  [ ] State
+│   │   ├──  [ ] Strategy
+│   │   ├──  [ ] TemplateMethod
+│   │   └──  [ ] Visitor
 │   ├── Creational
-│   │   ├── AbstractFactory
-│   │   ├── Builder
-│   │   ├── FactoryMethod
-│   │   ├── Multiton
-│   │   ├── Pool
-│   │   ├── Prototype
-│   │   ├── SimpleFactory
-│   │   ├── Singleton
+│   │   ├──  [ ] AbstractFactory
+│   │   ├──  [ ] Builder
+│   │   ├──  [ ] FactoryMethod
+│   │   ├──  [ ] Multiton
+│   │   ├──  [ ] Pool
+│   │   ├──  [ ] Prototype
+│   │   ├──  [ ] SimpleFactory
+│   │   ├──  [√] Singleton
 │   │   │   ├── doubleLock
 │   │   │   │   └── main.go
 │   │   │   ├── hungry
@@ -58,17 +58,17 @@
 │   │   │       └── main.go
 │   │   └── StaticFactory
 │   └── Structural
-│       ├── Adapter
-│       ├── Bridge
-│       ├── Composite
-│       ├── DataMapper
-│       ├── Decorator
-│       ├── DependencyInjection
-│       ├── Facade
-│       ├── FluentInterface
-│       ├── Flyweight
-│       ├── Proxy
-│       └── Registry
+│       ├──  [ ] Adapter
+│       ├──  [ ] Bridge
+│       ├──  [ ] Composite
+│       ├──  [ ] DataMapper
+│       ├──  [ ] Decorator
+│       ├──  [ ] DependencyInjection
+│       ├──  [ ] Facade
+│       ├──  [ ] FluentInterface
+│       ├──  [ ] Flyweight
+│       ├──  [ ] Proxy
+│       └──  [ ] Registry
 │     
 ├── LICENSE
 ├── README-CN.md
