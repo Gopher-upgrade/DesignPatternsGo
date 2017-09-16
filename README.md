@@ -25,11 +25,7 @@
 
 这里记录在Golang 学习中遇到的一些有趣的设计模式，代码段来自一些开源库源码，以及个人与参与者实现的一些较好的案例，我认为设计模式的最大问题是大家知道这是什么而往往总是不知道何时能用上
 
-## 简易结构
-
-
-## Behavioral
----
+## 行为型模式实例 Behavioral
 
 - [ ] [ChainOfResponsibilities](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Behavioral/Behavioral_test.go)
 - [ ] [Command](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Command/Command.go)
@@ -44,8 +40,7 @@
 - [ ] [TemplateMethod](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Behavioral/Behavioral_test.go)
 - [ ] [Visitor](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Behavioral/Behavioral_test.go)
 
-## Creational
----
+## 创建型模式实例 Creational
 
 - [ ] [AbstractFactory](/Gopher-upgrade/DesignPatternsGo/)
 - [ ] [Builder](/Gopher-upgrade/DesignPatternsGo/)
@@ -58,8 +53,7 @@
 - [ ] [StaticFactory](/Gopher-upgrade/DesignPatternsGo/)
 
 
-##  tructural
----
+##  结构型模式实例 tructural
 
 - [ ] [Adapter](/Gopher-upgrade/DesignPatternsGo/)
 - [ ] [Bridge](/Gopher-upgrade/DesignPatternsGo/)
@@ -84,7 +78,7 @@
 ```
 里氏代换原则(Liskov Substitution Principle LSP)面向对象设计的基本原则之一。 里氏代换原则中说，任何 基类可以出现的地方，子类一定可以出现。 LSP是继承复用的基石，只有当衍生类可以替换掉基类，软件单位的功能不受 到影响时，基类才能真正被复用，而衍生类也能够在基类的基础上增加新的行为。里氏代换原则是对“开-闭”原则的补充。 实现“开-闭”原则的关键步骤就是抽象化。而基类与子类的继承关系就是抽象化的具体实现，所以里氏代换原则是对实现抽 象化的具体步骤的规范
 ```
-###依赖倒转原则（Dependence Inversion Principle）
+### 依赖倒转原则（Dependence Inversion Principle）
 ```
 这个是开闭原则的基础，具体内容：真对接口编程，依赖于抽象而不依赖于具体。
 ```
