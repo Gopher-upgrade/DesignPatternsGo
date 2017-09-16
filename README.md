@@ -26,16 +26,15 @@
 这里记录在Golang 学习中遇到的一些有趣的设计模式，代码段来自一些开源库源码，以及个人与参与者实现的一些较好的案例，我认为设计模式的最大问题是大家知道这是什么而往往总是不知道何时能用上
 
 ## 行为型模式实例 Behavioral
-
+<div>
 <details>
     <summary> Chain Of Responsibility 职责链模式</summary>
     <li class="task-list-item">
         使多个对象都有机会处理请求，从而避免请求的发送者和接收者之间的耦合关系。将这些对象连成一条链，并沿着这条链传递该请求，直到有一个对象处理它为止
     </li>
-    <li class="task-list-item">
-        <input type="checkbox" class="task-list-item-checkbox" disabled="">
-        <a href="/Gopher-upgrade/DesignPatternsGo/blob/master/Gopher-upgrade/DesignPatternsGo">StaticFactory</a>
-    </li>
+- 使多个对象都有机会处理请求，从而避免请求的发送者和接收者之间的耦合关系。将这些对象连成一条链，并沿着这条链传递该请求，直到有一个对象处理它为止
+- [ ] [AbstractFactory](/Gopher-upgrade/DesignPatternsGo/)
+
 </details>
 <details>
     <summary> Command 命令模式</summary>
@@ -90,8 +89,8 @@
     <li class="task-list-item">
         表示一个作用于某对象结构中的各元素的操作，它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作
     </li>
-    <details>
-    
+<details>
+</div>
 
 ## 创建型模式实例 Creational
 
