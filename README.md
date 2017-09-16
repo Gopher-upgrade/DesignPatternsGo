@@ -27,18 +27,71 @@
 
 ## 行为型模式实例 Behavioral
 
-- [ ] [ChainOfResponsibilities](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Behavioral/Behavioral_test.go)
-- [ ] [Command](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Command/Command.go)
-- [ ] [Iterator](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Iterator/Iterator.go)
-- [ ] [Mediator](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Behavioral/Behavioral_test.go)
-- [ ] [Memento](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Behavioral/Behavioral_test.go)
-- [ ] [NullObject](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Behavioral/Behavioral_test.go)
-- [ ] [Observer](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Behavioral/Behavioral_test.go)
-- [ ] [Specification](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Behavioral/Behavioral_test.go)
-- [ ] [State](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Behavioral/Behavioral_test.go)
-- [ ] [Strategy](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Behavioral/Behavioral_test.go)
-- [ ] [TemplateMethod](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Behavioral/Behavioral_test.go)
-- [ ] [Visitor](/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Behavioral/Behavioral_test.go)
+<details>
+    <summary> Chain Of Responsibility 职责链模式</summary>
+    <li class="task-list-item">
+        使多个对象都有机会处理请求，从而避免请求的发送者和接收者之间的耦合关系。将这些对象连成一条链，并沿着这条链传递该请求，直到有一个对象处理它为止
+    </li>
+    <li class="task-list-item">
+        <input type="checkbox" class="task-list-item-checkbox" disabled="">
+        <a href="/Gopher-upgrade/DesignPatternsGo/blob/master/Gopher-upgrade/DesignPatternsGo">StaticFactory</a>
+    </li>
+</details>
+<details>
+    <summary> Command 命令模式</summary>
+    <li class="task-list-item">
+        将一个请求封装为一个对象，从而使你可用不同的请求对客户进行参数化；对请求排队或者记录请求日志，以及支持可撤销的操作 Interpreter 解释器模式：给定一个语言，定义它的文法的一种表示，并定义一个解释器，这个解释器使用该表示来解释语言中的句子
+    </li>
+</details>
+<details>
+    <summary> Iterator 迭代器模式</summary>
+    <li class="task-list-item">
+        提供一种方法顺序访问一个聚合对象中的各个元素，而又不暴露该对象的内部表示
+    </li>
+</details>
+<details>
+    <summary> Mediator 中介者模式</summary>
+    <li class="task-list-item">
+        用一个中介对象来封装一系列的对象交互。中介这使各对象不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互。
+    </li>
+</details>
+<details>
+    <summary> Memento 备忘录模式</summary>
+    <li class="task-list-item">
+        在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。这样以后就可以将该对象恢复到原先保存的状态
+    </li>
+</details>
+<details>
+    <summary> Observer 观察者模式</summary>
+    <li class="task-list-item">
+        定义了一种一对多的依赖关系，让多个观察者对象同时监听某一个主题对象。这个主题对象在状态发生改变时，会通知所有观察者对象，使它们能够自动更新自己。
+    </li>
+</details>
+<details>
+    <summary> State 状态模式</summary>
+    <li class="task-list-item">
+        当一个对象的内在状态改变时，允许改变其行为，这个对象看起来像是改变了其类
+    </li>
+</details>
+<details>
+    <summary> Strategy 策略模式</summary>
+    <li class="task-list-item">
+        它定义了算法家族，分别封装起来，让它们可以相互替换，此模式让算法的变化，不会影响到使用算法的客户。
+    </li>
+</details>
+<details>
+    <summary> Template Methed模板方法</summary>
+    <li class="task-list-item">
+        定义一个操作中的算法的骨架，而将一些具体步骤延迟到子类中。模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
+    </li>
+</details>
+<details>
+    <summary> Visitor 访问者模式</summary>
+    <li class="task-list-item">
+        表示一个作用于某对象结构中的各元素的操作，它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作
+    </li>
+    <details>
+    
 
 ## 创建型模式实例 Creational
 
@@ -68,6 +121,12 @@
 - [ ] [Registry](/Gopher-upgrade/DesignPatternsGo/)
 
 
+
+
+
+
+## 设计原则
+
 <details>
  <summary>开闭原则（Open Close Principle）</summary>
      <pre><code>
@@ -75,7 +134,6 @@
      </code>
      </pre>
 </details>
-
 <details>
  <summary>里氏代换原则（Liskov Substitution Principle）</summary>
      <pre><code>
@@ -83,7 +141,6 @@
      </code>
      </pre>
 </details>
-
 <details>
  <summary>依赖倒转原则（Dependence Inversion Principle）</summary>
      <pre><code>
@@ -91,8 +148,6 @@
      </code>
      </pre>
 </details>
-
-
 <details>
  <summary>接口隔离原则（Interface Segregation Principle）</summary>
      <pre><code>
@@ -100,21 +155,18 @@
      </code>
      </pre>
 </details>
-
-
-
 <details>
  <summary>迪米特法则（最少知道原则）（Demeter Principle）</summary>
-     <pre><code>
+     <pre>
+     <code>
           为什么叫最少知道原则，就是说：一个实体应当尽量少的与其他实体之间发生相互作用，使得系统功能模块相对独立。
      </code>
      </pre>
 </details>
-
-
 <details>
  <summary>合成复用原则（Composite Reuse Principle）</summary>
-     <pre><code>
+     <pre>
+     <code>
           原则是尽量使用合成/聚合的方式，而不是使用继承。
      </code>
      </pre>
