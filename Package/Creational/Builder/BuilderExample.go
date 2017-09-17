@@ -15,7 +15,7 @@ func (v *Vehicle) SetPart(key, value string) {
 
 // ------------------------------------------------
 type TruckBuilder struct {
-	Vehicle // 思考一下这里与 *Vehicle 的区别
+	Vehicle // 思考一下这里与 *Vehicle 的区别 ,另外此处并未实现将对象放进属性的操作，后期一定要改进
 }
 
 func (this *TruckBuilder) AddDoors(doors string) {

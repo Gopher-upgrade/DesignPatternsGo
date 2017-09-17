@@ -152,12 +152,12 @@
     <details>
         <summary> Builder生成器模式</summary>
         <code> 将一个复杂对象的构建与它表示分离，使得同样的构建过程可以创建不同的表示</code>
-        <p> <a href="/">正在梳理..</a></p>
+        <p>  <a href="https://github.com/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Creational/Builder/BBuilder_test.go">Builder</a></p>
     </details>
     <details>
         <summary> Factory Method工厂方法模式</summary>
         <code> 定义一个用于创建对象的接口，让子类决定实例化哪一个类。工厂方法使一个类的实例化延迟到其子类</code>
-        <p> <a href="/">正在梳理..</a></p>
+        <p>  <a href="https://github.com/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Creational/FactoryMethod/Factory_test.go">Factory Method</a></p>
     </details>
     <details>
         <summary> Prototype 原型模式</summary>
