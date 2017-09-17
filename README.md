@@ -150,7 +150,7 @@
         <p> <a href="https://github.com/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Creational/AbstractFactory/abstractFactory.go">Abstract Factory</a></p>
     </details>
     <details>
-        <summary> Builder建造者模式</summary>
+        <summary> Builder生成器模式</summary>
         <code> 将一个复杂对象的构建与它表示分离，使得同样的构建过程可以创建不同的表示</code>
         <p> <a href="/">正在梳理..</a></p>
     </details>
