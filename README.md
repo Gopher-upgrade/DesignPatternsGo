@@ -152,7 +152,7 @@
     <details>
         <summary> Builder生成器模式</summary>
         <code> 将一个复杂对象的构建与它表示分离，使得同样的构建过程可以创建不同的表示</code>
-        <p>  <a href="https://github.com/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Creational/Builder/BBuilder_test.go">Builder</a></p>
+        <p>  <a href="https://github.com/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Creational/Builder/Builder_test.go">Builder</a></p>
     </details>
     <details>
         <summary> Factory Method工厂方法模式</summary>
