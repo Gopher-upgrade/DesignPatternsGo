@@ -31,7 +31,7 @@ func TestWorkPoll(t *testing.T) {
 
 	//并让它一直接运行
 	dispatch.Run()
-	for i := 0; i < 10; i++ {
+	for i := 0; i < 3; i++ {
 		p := Payload{
 			fmt.Sprintf("玩家-[%s]", strconv.Itoa(i)),
 		}

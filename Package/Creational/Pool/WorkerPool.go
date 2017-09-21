@@ -19,7 +19,7 @@ func (p *Payload) Play() {
 
 //任务
 type Job struct {
-	Payload Payload
+	Payload
 }
 
 //任务队列

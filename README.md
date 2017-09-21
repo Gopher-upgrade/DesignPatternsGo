@@ -162,12 +162,28 @@
     <details>
         <summary> Prototype 原型模式</summary>
         <code> 用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象（clone浅复制、深复制）</code>
-        <p> <a href="/">正在梳理..</a></p>
+        <p>  <a href="https://github.com/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Creational/Prototype/prototype_test.go">Factory Method</a></p>
+    </details>
+    <details>
+        <summary> Pool 对象池模式</summary>
+        <code>
+对象池设计模式 是创建型设计模式，它会对新创建的对象应用一系列的初始化操作，
+让对象保持立即可使用的状态 - 一个存放对象的 “池子” - 而不是对对象进行一次性的的使用(创建并使用，完成之后立即销毁)。
+ 对象池的使用者会对对象池发起请求，以期望获取一个对象，并使用获取到的对象进行一系列操作，
+ 当使用者对对象的使用完成之后，使用者会将由对象池的对象创建工厂创建的对象返回给对象池，而不是用完之后销毁获取到的对象。
+ 对象池在某些情况下会带来重要的性能提升，比如耗费资源的对象初始化操作，实例化类的代价很高，但每次实例化的数量较少的情况下。
+ 对象池中将被创建的对象会在真正被使用时被提前创建，
+  避免在使用时让使用者浪费对象创建所需的大量时间(比如在对象某些操作需要访问网络资源的情况下)从池子中取得对象的时间是可预测的，但新建一个实例所需的时间是不确定。
+ 总之，对象池会为你节省宝贵的程序执行时间，
+ 比如像数据库连接，socket连接，大量耗费资源的代表数字资源的对象，像字体或者位图。
+ 不过，在特定情况下，简单的对象创建池(没有请求外部的资源，仅仅将自身保存在内存中)或许并不会提升效率和性能，这时候，就需要使用者酌情考虑了。
+ </code>
+        <p>  <a href="https://github.com/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Creational/Prototype/prototype_test.go">Factory Method</a></p>
     </details>
     <details>
         <summary> Singleton单例模式</summary>
         <code> 保证一个类仅有一个实例，并提供一个访问它的全局访问点。</code>
-        <p> <a href="/">正在梳理..</a></p>
+        <p>  <a href="https://github.com/Gopher-upgrade/DesignPatternsGo/blob/master/Package/Creational/doubleLock/main.go">Factory Method</a></p>
     </details>
 </div>
 
